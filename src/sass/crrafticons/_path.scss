@@ -1,0 +1,13 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'crrafticons';
+  src: url('#{$ci-font-path}/crrafticons.eot?v=#{$ci-version}');
+  src: url('#{$ci-font-path}/crrafticons.eot?#iefix&v=#{$ci-version}') format('embedded-opentype'),
+    url('#{$ci-font-path}/crrafticons.woff?v=#{$ci-version}') format('woff'),
+    url('#{$ci-font-path}/crrafticons.ttf?v=#{$ci-version}') format('truetype'),
+    url('#{$ci-font-path}/crrafticons.svg?v=#{$ci-version}#crrafticons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

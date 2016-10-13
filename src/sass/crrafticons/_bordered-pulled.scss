@@ -1,0 +1,25 @@
+// Bordered & Pulled
+// -------------------------
+
+.#{$ci-css-prefix}-border {
+  padding: .2em .25em .15em;
+  border: solid .08em $ci-border-color;
+  border-radius: .1em;
+}
+
+.#{$ci-css-prefix}-pull-left { float: left; }
+.#{$ci-css-prefix}-pull-right { float: right; }
+
+.#{$ci-css-prefix} {
+  &.#{$ci-css-prefix}-pull-left { margin-right: .3em; }
+  &.#{$ci-css-prefix}-pull-right { margin-left: .3em; }
+}
+
+/* Deprecated as of 4.4.0 */
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+.#{$ci-css-prefix} {
+  &.pull-left { margin-right: .3em; }
+  &.pull-right { margin-left: .3em; }
+}
