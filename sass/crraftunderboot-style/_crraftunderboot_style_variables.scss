@@ -1,0 +1,95 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+// As example you find one of the most important Bootstrap variable below: $brand-primary.
+// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+// Just add your color code here, compile the theme.scss file to change this color everywhere
+
+// basics
+$trans:           transparent !default;
+
+$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:    #fff !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:            $brand-primary !default;
+$link-decoration:       none;
+$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-decoration: $link-decoration;
+
+// Basics of a navbar
+//$navbar-height:                    40px !default;
+$navbar-margin-bottom:             0px !default;
+$navbar-border-radius:             0px !default;
+
+//== crraftunderboot Default navbar
+$navbar-default-crraftunderboot-color:                     darken($brand-primary, 15%) !default;
+$navbar-default-crraftunderboot-bg:                        lighten($brand-primary, 38.13%) !default;
+$navbar-default-crraftunderboot-border:                    darken($navbar-default-crraftunderboot-bg, 6.5%) !default;
+
+// Navbar links
+$navbar-default-crraftunderboot-link-color:                $navbar-default-crraftunderboot-color !default;
+$navbar-default-crraftunderboot-link-hover-color:          darken($navbar-default-crraftunderboot-link-color, 15%) !default;
+$navbar-default-crraftunderboot-link-hover-bg:             $trans;
+$navbar-default-crraftunderboot-link-active-color:         #555 !default;
+$navbar-default-crraftunderboot-link-active-bg:            darken($navbar-default-crraftunderboot-bg, 6.5%) !default;
+$navbar-default-crraftunderboot-link-disabled-color:       #ccc !default;
+$navbar-default-crraftunderboot-link-disabled-bg:          $trans;
+
+// Navbar brand label
+$navbar-default-crraftunderboot-brand-color:               $navbar-default-crraftunderboot-link-color !default;
+$navbar-default-crraftunderboot-brand-hover-color:         darken($navbar-default-crraftunderboot-brand-color, 10%) !default;
+$navbar-default-crraftunderboot-brand-hover-bg:            $trans;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           $trans;
+$navbar-default-toggle-icon-bar-bg:        $trans;
+$navbar-default-toggle-border-color:       $trans;
+
+//=== crraftunderboot Inverted navbar
+// Reset inverted navbar basics
+$navbar-inverse-crraftunderboot-color:                      lighten($brand-primary, 25%) !default;
+$navbar-inverse-crraftunderboot-bg:                         $brand-primary !default;
+$navbar-inverse-crraftunderboot-border:                     darken($navbar-inverse-crraftunderboot-bg, 6.5%) !default;
+
+// Inverted navbar links
+$navbar-inverse-crraftunderboot-link-color:                 lighten($brand-primary, 25%) !default;
+$navbar-inverse-crraftunderboot-link-hover-color:           $body-bg !default;
+$navbar-inverse-crraftunderboot-link-hover-bg:              $trans;
+$navbar-inverse-crraftunderboot-link-active-color:          $navbar-inverse-crraftunderboot-link-hover-color !default;
+$navbar-inverse-crraftunderboot-link-active-bg:             darken($navbar-inverse-crraftunderboot-bg, 6.5%) !default;
+$navbar-inverse-crraftunderboot-link-disabled-color:        #444 !default;
+$navbar-inverse-crraftunderboot-link-disabled-bg:           $trans;
+
+// Inverted navbar brand label
+$navbar-inverse-crraftunderboot-brand-color:                lighten($brand-primary, 50%) !default;
+$navbar-inverse-crraftunderboot-brand-hover-color:          $body-bg !default;
+$navbar-inverse-crraftunderboot-brand-hover-bg:             $trans;
+
+// Inverted navbar toggle
+$navbar-inverse-toggle-hover-bg:            $trans;
+$navbar-inverse-toggle-icon-bar-bg:         $trans;
+$navbar-inverse-toggle-border-color:        $trans;
+
+//** `<input>` background color
+$input-bg:                       #fefefe !default;
+
+//** Text color for `<input>`s
+$input-color:                    #333 !default;
+
+//** `<input>` border color
+$input-border:                   #e0e0e0 !default;
+
+//** Border color for inputs on focus
+$input-border-focus:             lighten($brand-primary, 15%) !default;
+
+//** Placeholder text color
+$input-color-placeholder:        #999 !default;

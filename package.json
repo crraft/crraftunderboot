@@ -1,0 +1,35 @@
+{
+  "name": "crraftunderboot",
+  "version": "1.0.2",
+  "description": "Wordpress theme based on Bootstrap and Underscores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crraftunderboot",
+    "underscores",
+    "bootstrap",
+    "wordpress",
+    "theme"
+  ],
+  "author": "San Ludhi",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/crraftunderboot/crraftunderboot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crraftunderboot/crraftunderboot/issues"
+  },
+  "homepage": "https://github.com/crraftunderboot/crraftunderboot#readme"
+}

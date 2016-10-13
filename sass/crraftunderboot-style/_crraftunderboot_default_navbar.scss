@@ -1,0 +1,133 @@
+// crraftunderboot Default navbar
+.navbar-default-crraftunderboot {
+  background-color: $navbar-default-crraftunderboot-bg;
+  border-color: $navbar-default-crraftunderboot-border;
+  border: 0;
+
+  .navbar-brand {
+    color: $navbar-default-crraftunderboot-brand-color;
+    &:hover,
+    &:focus {
+      color: $navbar-default-crraftunderboot-brand-hover-color;
+      background-color: $navbar-default-crraftunderboot-brand-hover-bg;
+    }
+  }
+
+  .navbar-text {
+    color: $navbar-default-crraftunderboot-color;
+  }
+
+  .navbar-nav {
+    > li > a {
+      color: $navbar-default-crraftunderboot-link-color;
+
+      &:hover,
+      &:focus {
+        color: $navbar-default-crraftunderboot-link-hover-color;
+        background-color: $navbar-default-crraftunderboot-link-hover-bg;
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: $navbar-default-crraftunderboot-link-active-color;
+        background-color: $navbar-default-crraftunderboot-link-active-bg;
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: $navbar-default-crraftunderboot-link-disabled-color;
+        background-color: $navbar-default-crraftunderboot-link-disabled-bg;
+      }
+    }
+  }
+
+  .navbar-toggle {
+    border-color: $navbar-default-crraftunderboot-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color: $navbar-default-crraftunderboot-toggle-hover-bg;
+    }
+    .icon-bar {
+      background-color: $navbar-default-crraftunderboot-toggle-icon-bar-bg;
+    }
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $navbar-default-crraftunderboot-border;
+  }
+
+  // Dropdown menu items
+  .navbar-nav {
+    // Remove background color from open dropdown
+    > .open > a {
+      &,
+      &:hover,
+      &:focus {
+        background-color: $navbar-default-crraftunderboot-link-active-bg;
+        color: $navbar-default-crraftunderboot-link-active-color;
+      }
+    }
+
+    @media (max-width: $grid-float-breakpoint-max) {
+      // Dropdowns get custom display when collapsed
+      .open .dropdown-menu {
+        > li > a {
+          color: $navbar-default-crraftunderboot-link-color;
+          &:hover,
+          &:focus {
+            color: $navbar-default-crraftunderboot-link-hover-color;
+            background-color: $navbar-default-crraftunderboot-link-hover-bg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: $navbar-default-crraftunderboot-link-active-color;
+            background-color: $navbar-default-crraftunderboot-link-active-bg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: $navbar-default-crraftunderboot-link-disabled-color;
+            background-color: $navbar-default-crraftunderboot-link-disabled-bg;
+          }
+        }
+      }
+    }
+  }
+
+
+  // Links in navbars
+  //
+  // Add a class to ensure links outside the navbar nav are colored correctly.
+
+  .navbar-link {
+    color: $navbar-default-crraftunderboot-link-color;
+    &:hover {
+      color: $navbar-default-crraftunderboot-link-hover-color;
+    }
+  }
+
+  .btn-link {
+    color: $navbar-default-crraftunderboot-link-color;
+    &:hover,
+    &:focus {
+      color: $navbar-default-crraftunderboot-link-hover-color;
+    }
+    &[disabled],
+    fieldset[disabled] & {
+      &:hover,
+      &:focus {
+        color: $navbar-default-crraftunderboot-link-disabled-color;
+      }
+    }
+  }
+}

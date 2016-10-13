@@ -1,0 +1,141 @@
+/*
+* crraftunderboot 1.0.2
+*/
+// Some basic padding for all wrappers
+.wrapper {
+  padding: $grid-gutter-width 0;
+}
+
+// Adding basic Wordpress classes to pass the Wordpress.org tests
+.type-post .entry-header .entry-title, .type-post .entry-header .entry-meta {
+  margin: 0px;
+}
+
+.type-post img {
+  margin-top: 10px;
+}
+
+.type-post .entry-header .entry-title {
+  margin-top: 20px;
+}
+
+.type-post .entry-header .entry-meta {
+  font-size: 95%;
+  color: #999;
+  margin-top: -2px;
+}
+
+.type-post .entry-footer {
+  font-size: 95%;
+  color: #999;
+  border-bottom: 1px $gray-light dotted;
+  padding-bottom: 20px;
+}
+
+.type-post .entry-header .entry-meta a, .type-post .entry-footer a {
+  color: lighten($link-color, 15%);
+}
+
+.type-post .entry-content {
+  margin: 10px 0;
+}
+
+.sticky, .gallery-caption, .bypostauthor {
+font-size:inherit;
+}
+
+.sticky .entry-title:before {
+  content: "Q";
+  font-family: crrafticons;
+  position: relative;
+  top: 5px;
+  left: -5px;
+  color: $brand-primary;
+
+}
+
+.entry-header .entry-title a {
+  color: $gray;
+  font-weight: normal;
+}
+
+.entry-header .entry-title a:hover {
+  color: $brand-success;
+}
+
+.tags-links a {
+  color: #999;
+  border-bottom: 1px #999 dotted;
+}
+
+// Separate sticky wrapper from main content
+.wrapper#wrapper-sticky {
+	border-bottom:1px solid $gray-light;
+}
+
+// Adding some contrast background color to footer full widget
+#wrapper-footer-full, #wrapper-static-hero{
+	background-color: $gray-lighter;
+}
+
+// Necessary WP classes
+.wp-caption {
+	font-size: inherit;
+}
+
+.wp-caption-text {
+	font-size: inherit;
+}
+
+.screen-reader-text {
+	font-size: inherit;
+}
+
+.alignright {
+	float: right;
+  padding-left:10px;
+}
+
+.alignleft {
+	float: left;
+  padding-right:10px;
+}
+
+.aligncenter {
+	margin:0px auto;
+}
+
+//Post design
+.entry-footer span {
+	padding-right:10px;
+}
+
+//Limit featured image size to 100%
+img.wp-post-image, article img, figure, img, #secondary img {
+	max-width: 100%;
+  height: auto;
+}
+
+// Skip to content link
+a.skip-link{
+z-index: 1000;
+position: fixed;
+top: 0px;
+right: 0px;
+}
+
+// Reset Jumbotron default margin
+.jumbotron {
+	margin-bottom:0px;
+	border-radius: 0px;
+}
+
+.carousel-inner .item {
+  height: 300px;
+  width: 100%;
+}
+
+.carousel-inner .item .textwidget img {
+  height: 300px;
+  width: 100%;
+}
