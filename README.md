@@ -1,4 +1,4 @@
-# crraftunderboot
+# crraftunderboot 1.0.2
 Wordpress Theme based on http://underscores.me and Bootstrap-3.3.7 http://getbootstrap.com. Inspired by https://understrap.com by Holger Koenemann
 
 # To change color of navbar/links:
